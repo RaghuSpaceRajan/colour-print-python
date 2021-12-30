@@ -26,7 +26,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="colour_print",
     py_modules=['colour_print.cp'],
-    version="0.0.1",
+    version="0.0.2",
     author=AUTHORS,
     author_email=AUTHOR_EMAIL,
     description="A python package to print coloured output, e.g., for debugging purposes.",
