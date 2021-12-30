@@ -17,7 +17,7 @@ AUTHORS = (
 
 AUTHOR_EMAIL = "rajanr@cs.uni-freiburg.de"
 
-LICENSE = "Apache License, Version 2.0"
+LICENSE = "GNU GPL, Version 3.0"
 
 
 with open("README.md", "r", encoding="utf-8") as fh:
@@ -25,6 +25,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="colour_print",
+    py_modules=['colour_print.cp'],
     version="0.0.1",
     author=AUTHORS,
     author_email=AUTHOR_EMAIL,
